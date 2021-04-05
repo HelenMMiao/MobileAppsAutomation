@@ -53,7 +53,7 @@ class WhatsApp(unittest.TestCase):
 
             # Input phone number and continue.
             self.driver.find_element_by_id('registration_phone').clear()
-            self.driver.find_element_by_id('registration_phone').send_keys('291241517')
+            self.driver.find_element_by_id('registration_phone').send_keys('222222222')
             self.driver.find_element_by_id('registration_submit').click()
             self.driver.find_element_by_id('android:id/button1').click()
 
